@@ -1,0 +1,103 @@
+
+
+
+
+
+/* OLD */
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+  background-color: #b4b3b3;
+  /* cursor: pointer; */
+  cursor: url(./img/fish.cur), default;
+}
+
+  .menu {
+    float: left;
+    width: 20%;
+    background-color: aliceblue;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #a14444;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  
+  /* 
+  JORG3*/
+  #inner {
+    display: table;
+    margin: 0 auto;
+    border: 0px solid black;
+  }
+  
+  #outer {
+    border: 0px solid rgb(246, 246, 246);
+    width:100%
+  }
+
+  #instagram{
+    border: 3px solid #7536FF;
+    cursor: url(./img/fish.cur), default;
+  }
+
+  #instagram:hover{
+    border: 3px solid #E61F58;
+    cursor: url(./img/fish.cur), default;
+  }
+
+
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+  }
+
+  .footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+  
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+
+/* Jorg3 Teste */
+
+.card {
+  width: 500px;
+  height: 410px;
+  background: url("./img/log.svg") no-repeat;
+  margin: 10px;
+}
+/* .card:hover {
+  background: url("./img/log2.svg") no-repeat;
+} */
+
+ 
